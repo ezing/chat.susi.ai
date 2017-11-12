@@ -213,7 +213,7 @@ class MessageComposer extends Component {
             id='scroll'
             minRows={1}
             maxRows={5}
-            placeholder="Type a message..."
+            placeholder="请输入..."
             value={this.state.text}
             onChange={this._onChange.bind(this)}
             onKeyDown={this._onKeyDown.bind(this)}
