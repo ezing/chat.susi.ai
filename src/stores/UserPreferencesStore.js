@@ -7,8 +7,8 @@ let CHANGE_EVENT = 'change';
 
 let _defaults = {
     Theme: 'light',
-    Server: 'https://api.susi.ai',
-    StandardServer: 'https://api.susi.ai',
+    Server: 'http://ai.icloudportal.cn:4000',
+    StandardServer: 'http://ai.icloudportal.cn:4000',
     EnterAsSend: true,
     MicInput: true,
     SpeechOutput: true,
@@ -22,7 +22,7 @@ let _defaults = {
     CountryDialCode: '+1',
     phoneNo: '',
     checked: false,
-    serverUrl:'https://api.susi.ai',
+    serverUrl:'http://ai.icloudportal.cn:4000',
     BackgroundImage : ''
 
 };
