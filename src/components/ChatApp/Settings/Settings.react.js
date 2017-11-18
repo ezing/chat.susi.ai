@@ -148,6 +148,9 @@ class Settings extends Component {
 			countryDialCode: defaultCountryDialCode,
 			phoneNo: defaultPhoneNo,
 			voiceList: [{
+				lang: 'zh-CHS',
+				name: '中文'
+			},{
 				lang: 'de-DE',
 				name: 'Deutsch'
 			}, {
