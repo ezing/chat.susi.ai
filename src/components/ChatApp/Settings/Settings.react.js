@@ -441,7 +441,7 @@ class Settings extends Component {
 		MessageStore.removeChangeListener(this._onChange.bind(this));
 		UserPreferencesStore.removeChangeListener(this._onChangeSettings.bind(this));
 	}
-
+	
 	// Populate language list
 	_onChange() {
 		this.setState({
@@ -449,9 +449,9 @@ class Settings extends Component {
 				lang: 'de-DE',
 				name: 'Deutsch'
 			}, {
-               			lang: 'am-AM',
-                		name: 'Armenian'
-            		}, {
+				lang: 'zh-CHS',
+				name: '中文'
+       }, {
 				lang: 'en-US',
 				name: 'US English'
 			}]
